@@ -1,5 +1,5 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { SiExpress, SiHtml5, SiMongodb, SiTailwindcss } from "react-icons/si";
+import { SiHtml5, SiTailwindcss } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { motion } from "framer-motion";
 const iconVarients = (duration) => ({
@@ -46,14 +46,14 @@ const Technology = () => {
         >
           <TbBrandNextjs className="text-7xl" />
         </motion.div>
-        <motion.div
+        {/* <motion.div
           initial="initial"
           animate="animate"
           variants={iconVarients(5)}
           className="p-4"
         >
           <SiMongodb className="text-7xl" />
-        </motion.div>
+        </motion.div> */}
         <motion.div
           initial="initial"
           animate="animate"
@@ -70,14 +70,14 @@ const Technology = () => {
         >
           <SiHtml5 className="text-7xl" />
         </motion.div>
-        <motion.div
+        {/* <motion.div
           initial="initial"
           animate="animate"
           variants={iconVarients(3)}
           className="p-4"
         >
           <SiExpress className="text-7xl" />
-        </motion.div>
+        </motion.div> */}
       </motion.div>
     </div>
   );
