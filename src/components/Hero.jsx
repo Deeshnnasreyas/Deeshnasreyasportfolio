@@ -1,4 +1,4 @@
-import profilepic from "../assets/profileimg.jpeg";
+import profilepic from "../assets/proimg.jpeg";
 import { HERO_CONTENT } from "../constants/index";
 import { motion } from "framer-motion";
 const containerVariants = {
