@@ -7,7 +7,7 @@ const Projects = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="my-20 text-center text-4xl"
+        className="my-20 text-center text-4xl font-bold"
       >
         Projects
       </motion.h2>
@@ -40,7 +40,7 @@ const Projects = () => {
                 <span
                   key={index}
                   className="
-                    mr-2 rounded-lg bg-blue-950 p-2 text-sm font-medium text-blue-200"
+                    mr-2 rounded-lg bg-gradient-to-r from-yellow-400 to-yellow-800 p-2 text-sm font-medium text-white"
                 >
                   {tech}
                 </span>

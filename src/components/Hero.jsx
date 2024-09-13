@@ -50,13 +50,13 @@ const Hero = () => {
             <motion.h2
               variants={childVariants}
               className="pb-2 text-4xl tracking-tighter
-                      lg:text-8xl font-semibold bg-gradient-to-r from-blue-200 to-blue-800 text-transparent bg-clip-text"
+                      lg:text-8xl font-semibold bg-gradient-to-r from-yellow-200 to-yellow-800 text-transparent bg-clip-text"
             >
               Deeshnna Sreyas
             </motion.h2>
             <motion.span
               variants={childVariants}
-              className="text-3xl tracking-tight text-blue-500 font-bold"
+              className="text-3xl tracking-tight text-yellow-100 font-bold"
             >
               Front End Developer
             </motion.span>
@@ -72,7 +72,7 @@ const Hero = () => {
               target="_blank"
               rel="noopener noreferrer"
               download
-              className=" rounded-full p-4 px-5 text-sm shadow-lg bg-blue-600 text-white hover:text-blue-600   hover:bg-gradient-to-r from-blue-100 to-blue-400"
+              className=" rounded-full p-4 px-5 text-sm shadow-lg bg-yellow-5 text-white bg-gradient-to-r from-yellow-400 to-yellow-800 hover:bg-yellow-800 hover:text-white"
             >
               Download Resume
             </motion.a>

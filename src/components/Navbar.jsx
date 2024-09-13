@@ -16,7 +16,7 @@ const Navbar = () => {
           rel="noopener noreferrer"
           aria-label="LinkedIn"
         >
-          <FaLinkedin className="cursor-pointer text-blue-300 " />
+          <FaLinkedin className="cursor-pointer text-yellow-100 rounded-lg" />
         </a>
         <a
           href="https://github.com/Deeshnnasreyas"
@@ -24,7 +24,7 @@ const Navbar = () => {
           rel="noopener noreferrer"
           aria-label="Github"
         >
-          <FaGithub className="cursor-pointer text-blue-300 " />
+          <FaGithub className="cursor-pointer text-yellow-100 rounded-lg" />
         </a>
         <a
           href="https://www.instagram.com/deeshna_sreyas?igsh=MTZmMnFhNXJqd3Nvcg%3D%3D&utm_source=qr"
@@ -32,7 +32,7 @@ const Navbar = () => {
           rel="noopener noreferrer"
           aria-label="LinkedIn"
         >
-          <FaInstagram className="cursor-pointer text-blue-300 " />
+          <FaInstagram className="cursor-pointer text-yellow-100 rounded-lg" />
         </a>
       </div>
     </nav>

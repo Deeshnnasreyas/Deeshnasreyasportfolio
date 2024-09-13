@@ -11,7 +11,7 @@ const Contact = () => {
       >
         Get in Touch
       </motion.h2>
-      <div className="text-center tracking-tighter">
+      <div className="text-center tracking-tighter text-yellow-400">
         <motion.p
           className="my-4"
           whileInView={{ opacity: 1, x: 0 }}
