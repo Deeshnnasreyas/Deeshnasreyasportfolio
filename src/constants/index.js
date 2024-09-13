@@ -46,21 +46,21 @@ export const PROJECTS = [
     image: project1,
     description:
       "Shopify app that allows businesses to collect customer reviews via WhatsApp.Automated Review Requests allow sends personalized requests for reviews through WhatsApp, which can include star ratings, text, photos, and videos.Multimedia Reviews includes Customers can easily share photos and videos of the products they purchased, creating authentic social proof for potential buyers.In Customizable Messages include Businesses can tailor the review request messages to match their brand’s tone, enhancing the customer experience.",
-    technologies: ["NextJs", "CSS", "SASS","Polaris components"],
+    technologies: ["NextJs", "CSS", "SASS","Polaris"],
   },
   {
     title: "Doctor Consultation Portal",
     image: project2,
     description:
       "Consultation and Wellness Booking,Implement an intuitive and easy-to-use booking system that allows patients to schedule consultations for medical or wellness services with doctors or specialists,Flexible Inquiry System that enable users to make flexible inquiries for appointments, adjusting for various needs such as preferred time, specific practitioners, or treatment type.Checking Doctor Availability that Offer a live availability checker for doctors and specialists, allowing users to book only when the doctor is available.Location Tracking,Status Updates,Notifications,Slot Booking that Allow patients to reserve specific time slots for appointments, ensuring that schedules are followed properly,Registration of Patients and Family Members,Secure Payment Methods.",
-    technologies: [ "React js","HTML", "CSS","Redux","Bootstrap","Google map","Razorpay"],
+    technologies: [ "React js","HTML", "CSS","Redux"],
   },
   {
     title: "Travel B2C Booking Portal",
     image: project3,
     description:
       "Holiday Package Booking, it Enable users to browse and book complete holiday packages, including accommodations, activities, and transportation in one go.Activity Bookings that Provide options for users to book activities (such as tours, adventure sports, or cultural events) at their travel destination,Meeting Scheduling include an option to book meeting rooms or business spaces at hotels or other locations.Hotel Selection that Allow users to search and select hotels in their chosen location based on filters such as price, amenities, and guest reviews.Destination-Based Hotel Bookings enable users to search for and book hotels near their selected travel destination.Alse users add family members, including the number of adults and children, to tailor the booking and secure and diverse payment methods using Razorpay. ",
-    technologies: ["HTML", "CSS", "React JS", "Bootstrap","Razorpay"],
+    technologies: ["HTML", "CSS", "React JS", "Bootstrap"],
   },
   {
     title: "Ecommerce Website ",
@@ -80,8 +80,8 @@ export const PROJECTS = [
     title: "Realestate Project",
     image: project6,
     description:
-      "Property Listing that Sellers can list properties with detailed descriptions, images, pricing, and location information. This should include filtering options for buyers based on property type (residential, commercial), price, size, etc.Agent Assignment: Allow property owners to assign specific real estate agents to their listings, who can then manage the sale process on their behalf.Agent Dashboard is provide agents with a dedicated dashboard to manage their assigned properties, track inquiries, and handle client communications.Buyer-Seller Communication thati mplement secure messaging between buyers, sellers, and agents for inquiries, negotiations, and updates.Property Verification incorporate a system to verify property ownership and legal documentation to build trust with buyers.Provide sellers and agents with data analytics on property views, inquiries, and market trends to optimize their sales strategy.",
-    technologies: ["Next JS","Typescript","Tailwind css", "CSS","Redux","Tankstack Query"],
+      "Property Listing that Sellers can list properties with detailed descriptions, images, pricing, and location information. This should include filtering options for buyers based on property type (residential, commercial), price, size, etc.Agent Assignment: Allow property owners to assign specific real estate agents to their listings, who can then manage the sale process on their behalf.Agent Dashboard is provide agents with a dedicated dashboard to manage their assigned properties, track inquiries, and handle client communications.Buyer-Seller Communication thati mplement secure messaging between buyers, sellers, and agents for inquiries, negotiations, and updates.Property Verification incorporate a system to verify property ownership and legal documentation to build trust with buyers.Provide sellers and agents with data analytics on property views, inquiries, and market trends to optimize their sales strategy.Proper API integration using Tankstack Query",
+    technologies: ["Next JS","Typescript","Tailwind css"],
   }, 
 ];
 

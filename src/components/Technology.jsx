@@ -29,7 +29,7 @@ const Technology = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1.5 }}
-        className="flex flex-wrap items-center justify-center gap-4"
+        className="flex flex-wrap items-center justify-center gap-4 pb-2"
       >
         <motion.div
           initial="initial"
