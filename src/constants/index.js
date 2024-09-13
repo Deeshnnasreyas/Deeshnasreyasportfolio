@@ -6,16 +6,16 @@ import project5 from "../assets/projects/socialmedia.png";
 import project6 from "../assets/projects/estative.png";
 export const HERO_CONTENT = `I am a front-end developer specializing in React.js and Next.js for the last two years, with a passion for creating seamless, dynamic user interfaces that elevate the user experience. I'm focus on developing high-performance, responsive web applications that are both visually engaging and functionally robust. I leverage a strong foundation in JavaScript, modern web technologies, and front-end best practices to deliver user-friendly solutions that align with business objectives. My goal is to combine creativity with technical expertise to build scalable and efficient applications that drive results.`;
 
-export const ABOUT_TEXT = `As a dedicated front-end developer specializing in React.js and Next.js, I am passionate about crafting smooth, dynamic user interfaces that elevate the user experience. With over 2 years of experience, I excel in building high-performance, responsive web applications that are both visually appealing and functional. My deep understanding of JavaScript and modern web technologies, coupled with best practices in front-end development, enables me to deliver user-friendly solutions that align with business objectives. I aim to blend creativity with technical expertise to develop powerful, scalable applications`;
+export const ABOUT_TEXT = `As a dedicated front-end developer specializing in React.js and Next.js, I am passionate about crafting smooth, dynamic user interfaces that elevate the user experience. With over 2 years of experience, I excel in building high-performance, responsive web applications that are both visually appealing and functional. My deep understanding of JavaScript and modern web technologies, coupled with best practices in front-end development, enables me to deliver user-friendly solutions that align with business objectives. I aim to blend creativity with technical expertise to develop powerful, scalable applications.`;
 
 export const EXPERIENCES = [
   {
     year: "25 Mar 2024 at Present ",
     role:  "Software Engineer ",
     company: "VOICENE TECHNOLOGIES LLP, TRIVANDRUM .",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Typescript.Testing,Api
+    description: `Developing and maintaining web applications using React.js, and Typescript.Testing,Api
      integration using Tankstack Query.`,
-    technologies: ["Typescript", "React.js","Tailwind css","Tankstack Query"],
+    technologies: ["Typescript", "React.js","Tailwind css","Tankstack Query","Redux"],
   },
   {
     year: "04 July 2022- 20 March 2024",
@@ -45,7 +45,7 @@ export const PROJECTS = [
     title: "Review Collecting App",
     image: project1,
     description:
-      "Shopify app that allows businesses to collect customer reviews via WhatsApp.Automated Review Requests: It sends personalized requests for reviews through WhatsApp, which can include star ratings, text, photos, and videos.Multimedia Reviews: Customers can easily share photos and videos of the products they purchased, creating authentic social proof for potential buyers.Customizable Messages: Businesses can tailor the review request messages to match their brand’s tone, enhancing the customer experience",
+      "Shopify app that allows businesses to collect customer reviews via WhatsApp.Automated Review Requests allow sends personalized requests for reviews through WhatsApp, which can include star ratings, text, photos, and videos.Multimedia Reviews includes Customers can easily share photos and videos of the products they purchased, creating authentic social proof for potential buyers.In Customizable Messages include Businesses can tailor the review request messages to match their brand’s tone, enhancing the customer experience.",
     technologies: ["NextJs", "CSS", "SASS","Polaris components"],
   },
   {
@@ -59,28 +59,28 @@ export const PROJECTS = [
     title: "Travel B2C Booking Portal",
     image: project3,
     description:
-      "Holiday Package Booking it Enable users to browse and book complete holiday packages, including accommodations, activities, and transportation in one go.Activity Bookings that Provide options for users to book activities (such as tours, adventure sports, or cultural events) at their travel destination,Meeting Scheduling include an option to book meeting rooms or business spaces at hotels or other locations.Hotel Selection that Allow users to search and select hotels in their chosen location based on filters such as price, amenities, and guest reviews.Destination-Based Hotel Bookings enable users to search for and book hotels near their selected travel destination.Alse users add family members, including the number of adults and children, to tailor the booking and secure and diverse payment methods using Razorpay. ",
-    technologies: ["HTML", "CSS", "React JS", "Bootstrap"],
+      "Holiday Package Booking, it Enable users to browse and book complete holiday packages, including accommodations, activities, and transportation in one go.Activity Bookings that Provide options for users to book activities (such as tours, adventure sports, or cultural events) at their travel destination,Meeting Scheduling include an option to book meeting rooms or business spaces at hotels or other locations.Hotel Selection that Allow users to search and select hotels in their chosen location based on filters such as price, amenities, and guest reviews.Destination-Based Hotel Bookings enable users to search for and book hotels near their selected travel destination.Alse users add family members, including the number of adults and children, to tailor the booking and secure and diverse payment methods using Razorpay. ",
+    technologies: ["HTML", "CSS", "React JS", "Bootstrap","Razorpay"],
   },
   {
     title: "Ecommerce Website ",
     image: project4,
     description:
-      "Organize products into categories and subcategories for easy browsing by users. Allow users to filter products by price, brand, features, and ratings, and include a robust search function",
+      "Organize products into categories and subcategories for easy browsing by users. Allow users to filter products by price, brand, features, and ratings, and include a robust search functions.state management using Redux tool.",
     technologies: ["React JS", "CSS","SASS","Redux"],
   }, 
     {
     title: "Social Media website project  ",
     image: project5,
     description:
-      "A socialmedia platform for creating and publishing blog posts,recording vedio,broad cast,go live with features like rich text editing, comment,like,share,follow,unfollow,listing video and post in home screen and user profiles.",
+      "A socialmedia platform for creating and publishing blog posts,recording vedio,broadcast,go live with features like rich text editing, comment,like,share,follow(admire),unfollow,listing video and post in home screen and user profile.",
     technologies: ["React JS", "CSS","Typescript","Redux"],
   }, 
       {
-    title: "Realestate",
+    title: "Realestate Project",
     image: project6,
     description:
-      "Property Listing that Sellers can list properties with detailed descriptions, images, pricing, and location information. This should include filtering options for buyers based on property type (residential, commercial), price, size, etc.Agent Assignment: Allow property owners to assign specific real estate agents to their listings, who can then manage the sale process on their behalf.Agent Dashboard: Provide agents with a dedicated dashboard to manage their assigned properties, track inquiries, and handle client communications.Buyer-Seller Communication: Implement secure messaging between buyers, sellers, and agents for inquiries, negotiations, and updates.Property Verification: Incorporate a system to verify property ownership and legal documentation to build trust with buyers.Provide sellers and agents with data analytics on property views, inquiries, and market trends to optimize their sales strategy.",
+      "Property Listing that Sellers can list properties with detailed descriptions, images, pricing, and location information. This should include filtering options for buyers based on property type (residential, commercial), price, size, etc.Agent Assignment: Allow property owners to assign specific real estate agents to their listings, who can then manage the sale process on their behalf.Agent Dashboard is provide agents with a dedicated dashboard to manage their assigned properties, track inquiries, and handle client communications.Buyer-Seller Communication thati mplement secure messaging between buyers, sellers, and agents for inquiries, negotiations, and updates.Property Verification incorporate a system to verify property ownership and legal documentation to build trust with buyers.Provide sellers and agents with data analytics on property views, inquiries, and market trends to optimize their sales strategy.",
     technologies: ["Next JS","Typescript","Tailwind css", "CSS","Redux","Tankstack Query"],
   }, 
 ];
