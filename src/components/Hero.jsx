@@ -68,11 +68,11 @@ const Hero = () => {
             </motion.p>
             <motion.a
               variants={childVariants}
-              href="./resume.pdf"
+              href="/files/DEESHNNASREYAS.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download
-              className=" rounded-full p-4 px-5 text-sm shadow-lg bg-yellow-5 text-white bg-gradient-to-r from-yellow-400 to-yellow-800 hover:bg-yellow-800 hover:text-white"
+              className="rounded-full p-4 px-5 text-sm shadow-lg bg-yellow-5 text-white bg-gradient-to-r from-yellow-400 to-yellow-800 hover:bg-yellow-800 hover:text-white"
             >
               Download Resume
             </motion.a>
