@@ -80,7 +80,7 @@ export const PROJECTS = [
     title: "Realestate Project",
     image: project6,
     description:
-      "Real estate selling platforms that allow brokers and owner can list their properties with detailed descriptions, images, pricing, and location information. This should include filtering options for buyers based on property type (residential, commercial), price, size, etc.Agent Assignment: Allow property owners to assign specific real estate agents to their listings, who can then manage the sale process on their behalf.Agent Dashboard is provide agents with a dedicated dashboard to manage their assigned properties, track inquiries, and handle client communications.Buyer-Seller Communication that implement secure messaging between buyers, sellers, and agents for inquiries, negotiations, and updates.Property Verification incorporate a system to verify property ownership and legal documentation to build trust with buyers.Provide sellers and agents with data analytics on property views, inquiries, and market trends to optimize their sales strategy.Proper API integration using Tankstack Query.",
+      "Real estate selling platforms that allow brokers and owner can list their properties with detailed descriptions, images, pricing, and location information. This should include filtering options for buyers based on property type (residential, commercial), price, size, etc.",
     technologies: ["Next JS","Typescript","Tailwind css"],
   }, 
 ];
