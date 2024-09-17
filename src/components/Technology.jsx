@@ -1,5 +1,12 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { SiHtml5, SiTailwindcss } from "react-icons/si";
+import {
+  SiCss3,
+  SiExpress,
+  SiHtml5,
+  SiMongodb,
+  SiTailwindcss,
+  SiTypescript,
+} from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { motion } from "framer-motion";
 const iconVarients = (duration) => ({
@@ -46,21 +53,21 @@ const Technology = () => {
         >
           <TbBrandNextjs className="text-7xl" />
         </motion.div>
-        {/* <motion.div
+        <motion.div
           initial="initial"
           animate="animate"
           variants={iconVarients(5)}
           className="p-4"
         >
-          <SiMongodb className="text-7xl" />
-        </motion.div> */}
+          <SiMongodb className="text-7xl text-green-700" />
+        </motion.div>
         <motion.div
           initial="initial"
           animate="animate"
           variants={iconVarients(2)}
           className="p-4"
         >
-          <SiTailwindcss className="text-7xl" />
+          <SiTailwindcss className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
           initial="initial"
@@ -68,16 +75,32 @@ const Technology = () => {
           variants={iconVarients(6)}
           className="p-4"
         >
-          <SiHtml5 className="text-7xl" />
+          <SiHtml5 className="text-7xl text-orange-600" />
         </motion.div>
-        {/* <motion.div
+        <motion.div
           initial="initial"
           animate="animate"
           variants={iconVarients(3)}
           className="p-4"
         >
           <SiExpress className="text-7xl" />
-        </motion.div> */}
+        </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={iconVarients(3)}
+          className="p-4"
+        >
+          <SiTypescript className="text-7xl text-blue-400" />
+        </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={iconVarients(3)}
+          className="p-4"
+        >
+          <SiCss3 className="text-7xl text-cyan-600" />
+        </motion.div>
       </motion.div>
     </div>
   );
